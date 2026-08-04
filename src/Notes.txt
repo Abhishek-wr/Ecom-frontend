@@ -1,0 +1,57 @@
+1. Create React Project
+
+Open the folder where you want to create the project.
+Open the terminal in that folder.
+
+Run:
+npm create vite@latest
+Enter the project name.
+Select React → JavaScript.
+
+2. Open Project
+
+3. Install Tailwind CSS
+
+Go to the Tailwind CSS website.
+Follow the React + Vite installation steps.
+
+4. Install Material UI
+
+Go to the Material UI website.
+Install the required dependencies.
+
+5. Install React Icons
+
+Go to the React Icons website.
+Install the dependency.
+
+6. Install React Hot Toast
+
+Go to the React Hot Toast website.
+Install the dependency.
+
+Note: Follow the latest installation steps from the official documentation of each library.
+
+Need to know:
+    PostCss: 
+        1). What is it? A tool that processes and transforms CSS using plugins.
+        2). Use Case: Optimizes CSS, enables modern CSS features, and works with tools like Tailwind CSS.
+        3). How it's used: Runs during the build process and automatically transforms your CSS before it is loaded in the browser
+
+    AutoPrefixer:
+        1). What is it? A PostCSS plugin that automatically adds vendor prefixes to CSS properties.
+        2). Use Case: Ensures CSS works across different browsers without writing prefixes manually.
+
+        3). Example:
+
+            display: flex;
+
+            becomes
+
+            display: -webkit-flex;
+            display: flex;
+
+            (only when required for browser compatibility).
+
+        4). How it's used: It runs through PostCSS during the build process and automatically updates your CSS.
+    These both are pre-install when you install tailwind using tailwind vite   
