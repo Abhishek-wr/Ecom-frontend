@@ -55,3 +55,17 @@ Need to know:
 
         4). How it's used: It runs through PostCSS during the build process and automatically updates your CSS.
     These both are pre-install when you install tailwind using tailwind vite   
+
+7.) For creating Store : 
+    we need to install redux, react-redux,redux toolkit
+
+
+8). for moving from one url to anohter url and all other feature that we 
+implement like using useLocation or useNavigate and many more all come from 
+React rounter dom so install this package while doing this
+
+9). For improving loading screen we use react-loader-spinner 
+10). for form related we use use react Form Hook
+11). for icon we use react icon
+12). for message appear in scrren on add to cart or remove product from cart we use React toast
+13). for option like in user profile we use material ui menu option we have used material ui at many places too  
